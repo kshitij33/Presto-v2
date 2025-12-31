@@ -1,0 +1,41 @@
+<section>
+  <div class="container">
+    <div class="row-fluid">
+      <div class="container" style="margin-top: 50px">
+        <div class="span1"></div>
+        <div class="span10">
+          <div class="well">
+            <h1>Welcome to Secure Login Portal</h1>
+
+            <span class="label label-important">General Guidelines for Login</span> <br />
+            <br />
+            <div class="alert alert-error">
+              <h4>User!</h4>
+              If you are a User then Select "User" option From Select Box
+            </div>
+            <div class="alert alert-error">
+              <h4>Employee!</h4>
+              If you are an Employee then Select "Employee" option From Select Box
+            </div>
+            <div class="alert alert-error">
+              <h4>Admin!</h4>
+              If you are an Admin then Select "Administrator" option From Select Box
+            </div>
+            <br />
+            <br />
+            <select (change)="onRoleChange($event)">
+              <option value="">Select...</option>
+              <option value="user/login">User</option>
+              <option value="employee/login">Employee</option>
+              <option value="admin/login">Administrator</option>
+            </select>
+            <br />
+            <br />
+            <br />
+          </div>
+        </div>
+        <div class="span1"></div>
+      </div>
+    </div>
+  </div>
+</section>

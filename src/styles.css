@@ -1,1 +1,111 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* From basic.css */
+header {
+  background-color: #ffffff;
+}
+html {
+  background-color: #cbcbcb;
+}
+body {
+  background-color: #cbcbcb;
+  background-repeat: repeat-x;
+  background-position: 0px 90px;
+  padding: 0px 0px 0px 0px;
+  font-family: Helvetica, Tahoma, Arial, sans-serif;
+}
+
+.container {
+  max-width: 990px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #ffffff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.container-main {
+  max-width: 990px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #ffffff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+#footer-container-content {
+  background-color: #8bc7df;
+  border: 0px solid #ffffff;
+  margin: 0 auto;
+  min-height: 40px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+#footer-container-content p {
+  text-align: center;
+  font-size: 9pt;
+  color: #ffffff;
+  border: 0px #0095d4 solid;
+  padding: 10px 10px 0px 10px;
+}
+
+a.footer:link,
+a.footer:visited {
+  font-size: 9pt;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+a.footer:hover {
+  font-size: 9pt;
+  text-decoration: underline;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+}
+
+#myCarousel {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* From login.css */
+.form-signin {
+  max-width: 300px;
+  padding: 19px 29px 29px;
+  margin: 0 auto 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+
+.form-signin input[type='text'],
+.form-signin input[type='password'] {
+  font-size: 16px;
+  height: auto;
+  margin-bottom: 15px;
+  padding: 7px 9px;
+}

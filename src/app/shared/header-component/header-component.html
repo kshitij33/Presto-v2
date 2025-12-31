@@ -1,0 +1,159 @@
+<!-- <header class="py-3">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      
+      <div class="col-md-4">
+        <div id="logo" class="ms-2">
+          <img src="img/logo.png" alt="Logo" style="width: 275px;">
+        </div>
+      </div>
+
+      
+      <div class="col-md-6 offset-md-2 mt-3 mt-md-0">
+        <ul class="nav nav-pills justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.jsp">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.jsp">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="detail">Find ATM/Branch</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mainNavbar"
+      aria-controls="mainNavbar"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="searchDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Search
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="searchDropdown">
+            <li><a class="dropdown-item" href="login-portal.jsp">Login Portal</a></li>
+            <li><a class="dropdown-item" href="detail">Find Branch</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li class="dropdown-header">Tips / Charges</li>
+            <li><a class="dropdown-item" href="safe-banking-tips.jsp">Online Banking</a></li>
+            <li><a class="dropdown-item" href="service-charges.jsp">Service Charges</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="service-charges.jsp">Service Charges</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="interest-rate.jsp">Interest Rate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="forex.jsp">FOREX Card Rate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="safe-banking-tips.jsp">Safe Banking Tips</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+</div> -->
+
+
+
+<header>
+	<div class="container-main">
+		<div class="row-fluid">
+			<div class="span4">
+				<div id="logo" style="margin: 10px; width: 275px;">
+					<img src="img/logo.png" alt="">
+				</div>
+
+			</div>
+
+			<div class="span6 offset2" style="margin-top: 50px;">
+
+				<ul class="nav nav-pills">
+					<li><a 
+            [routerLink]="['/home']">Home</a></li>
+					<li><a [routerLink]="['/about-us']">About Us</a></li>
+					<li><a [routerLink]="['/contact-us']">Contact Us</a></li>
+					<li><a [routerLink]="['/detail']">Find ATM/Branch</a></li>
+					
+
+
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+</header>
+
+<div class="container-main">
+
+
+	<div class="navbar navbar-inverse ">
+
+		<div class="navbar-inner">
+
+
+
+			<div class="nav-collapse collapse">
+				<ul class="nav">
+
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown">Search <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a 
+                [routerLink]="['/login']">Login Portal</a></li>
+							<li><a [routerLink]="['/detail']">Find Branch</a></li>
+							
+							<li class="divider"></li>
+							<li class="nav-header">Tips/Charges</li>
+							<li><a [routerLink]="['/safe-banking-tips']">Online Banking</a></li>
+							<li><a [routerLink]="['/service-charges']">Service Charges</a></li>
+						</ul></li>
+					<li><a [routerLink]="['/service-charges']">Service Charges</a></li>
+					<li><a [routerLink]="['/interest-rate']">Interest Rate</a></li>
+					<li><a [routerLink]="['/forex']">FOREX Card Rate</a></li>
+					<li><a [routerLink]="['/safe-banking-tips']">Safe Banking Tips</a></li>
+
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+		<!-- /.navbar-inner -->
+	</div>
+	<!-- /.navbar -->
+</div>
+

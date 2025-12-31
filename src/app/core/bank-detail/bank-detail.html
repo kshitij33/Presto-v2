@@ -1,0 +1,28 @@
+<body>
+  <section>
+    <div class="container">
+      <div class="row-fluid">
+        <h3 style="color: red">Bank Branch Details</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Bank_ID</th>
+            <th>Bank_Branch_Name</th>
+            <th>Bank_Branch_Add</th>
+            <th>Bank_Branch_City</th>
+            <th>Bank_Branch_Phone</th>
+          </tr>
+          @for(bankDetail of detailList; track bankDetail.id) {
+            <tr>
+              <td>{{bankDetail.bankId}}</td>
+              <td>{{bankDetail.bankBranchName}}</td>
+              <td>{{bankDetail.bankBranchAdd}}</td>
+              <td>{{bankDetail.bankBranchCity}}</td>
+              <td>{{bankDetail.bankBranchPhone}}</td>
+            </tr>
+          }
+        </table>
+      </div>
+    </div>
+  </section>
+
+</body>
